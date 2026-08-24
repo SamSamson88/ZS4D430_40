@@ -1,0 +1,11 @@
+@Metadata.layer: #CUSTOMER
+annotate view /DMO/C_AgencyTP
+    with 
+{
+  
+    @EndUserText.label: 'Breidenbach'
+    AgencyID;
+   @EndUserText.label: 'Meine Alternative Beschriftung'
+    Name;
+    
+}

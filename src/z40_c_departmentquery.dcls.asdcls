@@ -1,0 +1,11 @@
+@EndUserText.label: 'Abteilung (Abfrage)'
+@MappingRole: true
+define role Z40_C_DEPARTMENTQUERY {
+    grant
+        select
+            on
+                Z40_C_DEPARTMENTQUERY
+                    where
+                        inheriting conditions from entity Z40_R_DEPARTMENT;
+                        
+}
